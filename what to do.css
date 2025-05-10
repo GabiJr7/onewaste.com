@@ -225,7 +225,7 @@ display: none;
         flex-direction: column;
         position: relative;
         align-items: center;
-        width:46vh;
+        width:51vh;
         background-color: green;
         height:20%;
         margin-top: 5px;
@@ -248,7 +248,6 @@ display: none;
           right: 0;
             background-color:green;
                  gap: 0px;
-                 width: 100%;
        }
      .content {
          display: flex;
@@ -282,7 +281,7 @@ display: none;
         height:80%;
        }
        .ema img{
-        width:38vh;
+        width:44vh;
         height: 30vh;
        }
        .rt{
@@ -293,7 +292,7 @@ display: none;
         height: 80%;    
        }
        .rt img{
-        width: 38vh;
+        width: 44vh;
        }
        .rt p{
          margin-top: 0px;
@@ -308,7 +307,7 @@ display: none;
         flex-direction: column;        
        }
        .tr img{
-        width:38vh;
+        width:44vh;
        }
        .tr p{
            margin-top: 0px;
@@ -321,7 +320,7 @@ display: none;
         height: 80%;
        }
        .ep img {
-        width:38vh;
+        width:44vh;
         height:45vh;
        }
        .ep p{
