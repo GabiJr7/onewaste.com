@@ -225,7 +225,7 @@ display: none;
         flex-direction: column;
         position: relative;
         align-items: center;
-        width:51vh;
+        width:60vh;
         background-color: green;
         height:20%;
         margin-top: 5px;
@@ -281,7 +281,7 @@ display: none;
         height:80%;
        }
        .ema img{
-        width:44vh;
+        width:50vh;
         height: 30vh;
        }
        .rt{
@@ -292,7 +292,7 @@ display: none;
         height: 80%;    
        }
        .rt img{
-        width: 44vh;
+        width: 50vh;
        }
        .rt p{
          margin-top: 0px;
@@ -307,7 +307,7 @@ display: none;
         flex-direction: column;        
        }
        .tr img{
-        width:44vh;
+        width:50vh;
        }
        .tr p{
            margin-top: 0px;
@@ -320,7 +320,7 @@ display: none;
         height: 80%;
        }
        .ep img {
-        width:44vh;
+        width:50vh;
         height:45vh;
        }
        .ep p{
