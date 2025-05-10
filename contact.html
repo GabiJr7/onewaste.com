@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="ewaste.html">E-WASTE</a></li>
+                <li><a href="what to do.html">WHAT TO DO</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <div class="icon">
+                    <i  onclick="showsidebar()"  class='bx bx-menu' id="icon"></i>
+                    <i onclick="hidesidebar()"  class='bx bx-x'  id="icon"></i>
+                    </div>
+                   <ol class="sidebar">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="ewaste.html">E-WASTE</a></li>
+                <li><a href="what to do.html">WHAT TO DO</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ol>
+            <span><h1>ONE WASTE</h1></span>
+        </nav>
+        <script src="contact.js"></script>
+    </header>
+    <div class="container">
+        <div class="outer">
+            <h1>Follow us on;</h1>
+            <h4>Fill in the  form so that we can get back to you and our team will get back to you</h4>
+            <a class="inst" href="https://www.instagram.com/gabikorsah_7">
+                <br>
+            <p class="insta">Instagram: gabrielkorsah_7  <ion-icon  name="logo-instagram"></ion-icon></p>
+        </a> 
+        <a  class="rett" href="https://mail.google.com/gabrielkorsah22@gmail.com">
+            <br>
+            <p class="emal">Email: gabrielkorsah22@gmail.com   <ion-icon name="mail-outline"></ion-icon></p>
+        </a>
+        <a class="phoni" href="https://web.whatsapp.com/ 0754472239 ">
+            <div class="phone">
+            <p>Whatsapp: 0754472239 <ion-icon name="logo-whatsapp"></ion-icon> </p>
+            </div>
+        </a>
+        <div class="bto">
+            <button class="bti"> <a href="contact us.html" >Contact us</a></button>
+        </div>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script module src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>        
+        <div class="inner">
+            <h1>Contact Us</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                  
+                                <label>
+                                    <input type="hidden" name="access_key" value="0b69ef44-9a06-46d5-b9e6-b733860e83d3">
+                    <input class="use" type="text" placeholder="Username" value="" name="name" required>
+                </label><br>
+                <label>
+                    <input class="ema" type="email" placeholder="Email" value=""name="Email" required>
+                </label><br>
+                <label>Male
+                    <input class="red" type="radio"  name="male" required> 
+                    Female<input class="rad" type="radio"  name="male" required>                    
+                </label><br>
+                <label>
+                    <input class="ema" type="password" placeholder="Passsword" value=""name="p" required>
+                </label><br>
+                <textarea class="text"  placeholder="Submit your feedback" ></textarea><br>
+                <button class="btn" >Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

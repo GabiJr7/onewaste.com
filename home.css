@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    display: flex;    
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0;
+    }
+   
+    header nav .menulist{
+        display: flex;
+        gap: 25px;
+    }
+header nav ul li{
+    padding: 15px;
+       font-size: x-large;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: calibri;
+
+}
+header nav ul li :hover{
+    border-bottom: solid greenyellow 2px;    
+}
+header nav ul li ::after{
+    color: greenyellow;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    width:fit-content;
+}
+span h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family:'calibri';
+    color:rgb(203, 227, 166);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+body{
+    background-image: url(e2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}.txt{
+    text-align: left;
+    margin-top:160px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 15px;
+}
+.sidebar{
+    padding: 15px;
+       font-size: x-large;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: calibri;
+    padding-top: 0px;
+    gap: 39px;
+justify-content: space-between;
+display: flex;
+flex-direction: column;
+display:none;
+flex: flex-start;
+align-items: center;
+
+}
+.txt h1 :hover{
+text-decoration: dotted green;
+}
+.icon{
+    font-size: xx-large;
+    color:white;
+ display: none;
+}
+
+header nav ol a{
+    color: white;
+    text-decoration: none;
+   }
+header nav ol{
+    display: flex;
+}
+    header nav ol li{
+        display:none;
+        left:0;
+        right:0;
+        background-color:green;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+        height:100%;
+    }
+
+/*responsive design*/
+
+@media(max-width:475px){
+     .txt{
+        display: none;
+    }
+
+    nav h1{
+display: none;
+    }
+     header nav ul li{
+        display:none;
+     }  
+    header nav ul li:hover{
+        border-bottom: solid 2px greenyellow;
+    }
+     .icon{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        left:0;
+        right: 0;
+        align-items: center;
+        width:100%;
+        background-color: green;
+        height:100%;
+    }
+    header nav ol li{
+        display:flex;
+        left:0;
+        right:0;
+        background-color:green;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+        height:100%;
+        border-radius: 10px;
+      
+       }
+       header nav ol{
+          margin-top: 145px;
+          position: absolute;
+          align-items: center;
+          left: 0;
+          right: 0;
+           
+       }
+      header nav ol{
+        transform: rotateY('angle');
+     }
+}
+@media(min-width:800px){
+    .txt{
+        margin-top: 400px;
+        font-size: 40px;
+    }
+}
+@media(min-width:760px){
+    .txt{
+        margin-top: 340px;
+        font-size: 30px;
+    }
+}

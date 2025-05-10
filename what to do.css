@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav ul{
+    display: flex;
+float:right;
+    margin-top: 0;
+    background-color: green;
+    }
+header nav ul li{
+    padding: 15px;
+       font-size: x-large;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: calibri;
+}
+header nav ul li :hover{
+    border-bottom: solid greenyellow 2px;    
+}
+header nav ul li ::after{
+    color: greenyellow;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+span h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family:'calibri';
+    color:rgb(203, 227, 166);
+    padding-top: 10px;
+    background-color: green;
+    height:60px;
+    margin-top: 0px;
+}
+body{
+    background-image: url(was.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'calibri';
+}
+.ema{
+    display: flex;
+    border: solid 4px green;
+    height: 440px;
+    margin-top: 40px;
+    width:190vh;
+    margin-left: 75px;
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    color:antiquewhite;
+    backdrop-filter:blur(10px) ;
+}
+
+.em p{
+    padding-top: 20px;
+
+}
+.imo{
+    height:440px;
+    width: 530px;
+}
+.span {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    font-family:'calibri';
+    color:rgb(203, 227, 166);
+    padding-top: 10px;
+    background-color:transparent;
+    height:60px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+.em h5{
+    color: turquoise;
+}
+.rt{
+    display: flex;
+    border: solid 4px green;
+    height: 350px;
+    margin-top: 40px;
+    width:190vh;
+    margin-left: 75px;
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    color:antiquewhite;
+    backdrop-filter:blur(10px) ;
+}
+.rp p{
+    margin-top: 30px;
+    flex: 1;
+}
+.imi {
+    height:400px;
+    width: 530px;
+    flex: 1;
+}
+.spin{
+    color:antiquewhite;
+    font-family: 'calibri';
+    font-size: larger;
+    text-align: center;
+    margin-top: 60px;
+    background-color:transparent;
+    height:60px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+.spun{
+    color:antiquewhite;
+    font-family: 'calibri';
+    font-size: larger;
+    text-align: center;
+    margin-top: 60px;
+    background-color:transparent;
+    height:60px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+.tr{
+  display: flex;
+    border: solid 4px green;
+    height: 245px;
+    margin-top: 40px;
+    width:190vh;
+    margin-left: 75px;
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    color:antiquewhite;
+    backdrop-filter:blur(10px) ;   
+}
+.imu{
+    height:245px;
+    width: 530px; 
+    flex: 1;
+}
+.tr p{
+    margin-top: 30px;
+    flex: 2;
+}
+.spon{
+    color:antiquewhite;
+    font-family: 'calibri';
+    font-size: larger;
+    text-align: center;
+    margin-top: 60px;
+    background-color:transparent;
+    height:60px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+.ep{
+    display: flex;
+    border: solid 4px green;
+    height: 327px;
+    margin-top: 40px;
+    width:190vh;
+    margin-left: 75px;
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    color:antiquewhite;
+    backdrop-filter:blur(10px) ; 
+}
+.er p{
+    margin-top: 30px;
+    flex: 1;
+}
+.er h5{
+    color:turquoise;
+}
+.imp{
+    height:326px;
+    width: 530px; 
+    flex: 2;
+}  
+.icon{
+    font-size: xx-large;
+    color:white;
+ display: none;
+}
+
+header nav ol a{
+    color: white;
+    text-decoration: none;
+   }
+header nav ol{
+    display: flex;
+}
+    header nav ol li{
+        display:none;
+        left:0;
+        right:0;
+        background-color:green;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+        height:100%;
+        color: white;
+    } 
+@media(max-width:475px){
+    
+    nav h1{
+display: none;
+    }
+    body{
+        width: 80%;
+    }
+     header nav ul li{
+        display:none;
+     }  
+    header nav ul li:hover{
+        border-bottom: solid 2px greenyellow;
+    }
+     .icon{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        width:46vh;
+        background-color: green;
+        height:20%;
+        margin-top: 5px;
+    }
+    header nav ol li{
+        display:flex;
+        left:0;
+        right:0;       
+        flex-direction: row;   
+        align-items: center;
+        height:100%;
+        border-radius: 10px;
+      
+       }
+       header nav ol{
+          margin-top: 10px;
+          position: absolute;
+          align-items: center;
+          left: 0;
+          right: 0;
+            background-color:green;
+                 gap: 0px;
+                 width: 100%;
+       }
+     .content {
+         display: flex;
+         flex-direction: column;
+        margin-top: 95px;        
+           }
+           .span h1{
+            text-align: center;
+
+           }
+       .imo{
+         margin: auto;
+         width: 265px;
+        height: 72vh;
+        margin-left: 0px;
+         margin-top: 0px;
+       }
+       .em p{
+        margin-left: 5px;
+          margin-top: 0px;
+       }
+       .em h5{
+          margin-top: 0px;
+         margin-left: 5px;
+       }
+       .ema{
+        margin-left: 35px;
+        width: 100%;
+        margin-top: 90px;
+        flex-direction: column;
+        height:80%;
+       }
+       .ema img{
+        width:38vh;
+        height: 30vh;
+       }
+       .rt{
+        margin-left: 5px;   
+        width: 100%; 
+        margin-left: 35px;
+        flex-direction: column;
+        height: 80%;    
+       }
+       .rt img{
+        width: 38vh;
+       }
+       .rt p{
+         margin-top: 0px;
+         margin-left: 5px;
+       }
+   
+       .tr{
+         margin-left: 5px;   
+        width: 100%;
+        height: 80%;
+        margin-left: 35px;
+        flex-direction: column;        
+       }
+       .tr img{
+        width:38vh;
+       }
+       .tr p{
+           margin-top: 0px;
+         margin-left: 5px;
+       }
+       .ep{
+         margin-left: 35px;   
+        width: 100%; 
+        flex-direction: column;
+        height: 80%;
+       }
+       .ep img {
+        width:38vh;
+        height:45vh;
+       }
+       .ep p{
+          margin-top: 0px;
+         margin-left: 10px;
+       }
+       .ep h5{
+          margin-top: 0px;
+         margin-left: 10px;
+       }
+            .span{
+            
+                margin-left: 15px;
+            }
+            *{
+                padding: 0;
+                margin: 0;
+            }
+    
+}
+
+@media(max-width:385px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+        .icon{
+        padding-left: 0px;
+        width:60vh;
+    }
+    header nav ol  {
+        gap:0px;
+        padding: 0px;    
+    }
+    .rt{
+        width: 100%;
+        height: 135vh;
+        flex-direction: column;
+        margin-left: 40px;
+        
+    }
+.rt img{
+    margin-left:8px;
+}
+    .tr{
+        width: 100%;
+        height: 135vh;
+        flex-direction: column;
+        margin-left: 40px;
+        
+    }
+.tr img{
+    margin-left:8px;
+}
+    .ep{
+        width: 100%;
+        height: 125vh;
+        flex-direction: column;
+        margin-left: 40px;
+        
+    }
+.ep img{
+    margin-left:0px;
+    width: 300px;
+}
+    .ema{
+        width: 100%;
+        height: 125vh;
+        flex-direction: column;
+        margin-left: 40px;
+        
+    }
+
+.ema img{
+    margin-left:8px;
+}
+.ema p ,h5{
+    padding-left: 10px;
+}
+    
+}
+@media(max-width:395px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+        .icon{
+        width: 58vh;
+        
+    }
+    header nav ol  {
+        gap:0px;
+        padding: 0px;
+        width: 58vh;    
+    }
+    .rt{
+        width: 48vh;
+        height: 135vh;
+        flex-direction: column;
+        margin-left: 25px;
+        
+    }
+.rt img{
+    margin-left:0px;
+    width: 100%;
+    height: 30px;
+}
+    .tr{
+        width: 48vh;
+        height: 135vh;
+        flex-direction: column;
+         margin-left: 10px;
+        
+    }
+.tr img{
+    margin-left:25px;
+    width: 50vh;
+}
+    .ep{
+        width: 48vh;
+        height: 135vh;
+        flex-direction: column;
+        margin-left: 25px;
+        
+    }
+.ep img{
+    margin-left:0px;
+    width: 50vh;
+}
+    .ema{
+        width: 48vh;
+        height: 135vh;
+        flex-direction: column;
+        margin-left: 25px;
+        
+    }
+
+.ema img{
+    margin-left:0px;
+    width:100%;
+}
+.ema p ,h5{
+    padding-left: 10px;
+}
+.ep{
+    margin-left: 25px;
+}
+.tr{
+    margin-left: 25px;
+}
+.tr img{
+    margin-left: 0px;
+}
+    .span{      
+        padding-left: 75px;
+    }
+        .spun{        
+        padding-left: 75px;
+    } 
+       .spin{      
+        padding-left: 75px;
+    } 
+       .spon{     
+        padding-left: 75px;
+    }
+}
+@media(min-width:760px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .ema{
+        margin-left: 15px;
+        width:58vh;
+        height:420px ;
+    }
+    .ema img{
+        width: 255px;
+
+    }
+        .ema p{
+        margin-top:10px;
+          margin-left: 10px;
+    }
+    .rt{
+        margin-left: 15px;
+         width:58vh;
+           height:385px ;
+    }
+    .rt p{
+        margin-top:10px;
+          margin-left: 10px;
+    }
+    .rt img{
+           width:265px;
+    }
+    .ep{
+        margin-left: 15px;
+         width:58vh;
+    }
+        .ep p{
+        margin-top:10px;
+          margin-left: 10px;
+    }
+    .ep img{
+        width:255px;
+    }
+    .tr{
+        margin-left: 15px;
+         width:58vh;
+    }
+    .tr img{
+           width:255px;
+    }
+        .tr p{
+        margin-top:10px;
+        margin-left: 10px;
+    }
+    span h1{
+        padding-top: 6px;
+        font-size: 26px;
+    }
+}
+@media(min-width:800px){
+    span h1{
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .ema p{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+}

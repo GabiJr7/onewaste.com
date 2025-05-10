@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(yt.webp);
+}
+header nav ul{
+    display: flex;
+float: right;
+    margin-top: 0px;
+    background-color: darkgreen;
+    border-radius: 15px;
+    }
+header nav ul li{
+    padding: 15px;
+       font-size: x-large;
+    font-weight: bold;
+    list-style-type: none;
+    font-family: calibri;
+}
+header nav ul li :hover{
+    border-bottom: solid greenyellow 2px;    
+}
+header nav ul li ::after{
+    color: greenyellow;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+span h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family:'calibri';
+    background-color:darkgreen;
+    padding-top: 10px;
+    color: white;
+    height: 66px;
+}
+.container{
+    width:75%;
+    background-color: transparent;
+      margin-left: 200px;
+    margin-top: 10px;
+    display: flex;
+}
+.outer{
+    background-color: transparent;
+    width:97%;
+    height:340px;
+    flex:1;
+}
+.inner{
+    background-color: transparent;
+    width:110%;
+    border:solid white;
+    font-family:calibri;
+    color: antiquewhite;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    flex:1
+}
+.ew{
+    width:460px;
+    height:340px;
+    border-radius: 10px;
+    flex: 1;
+}
+.inner p{
+    padding-top: 30px;
+    font-size: large;
+    word-spacing: 15px;
+}
+.head h1{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding-top:60px;
+    align-items: center;
+}
+.icon{
+    font-size: xx-large;
+    color:white;
+ display: none;
+}
+header nav ol {
+    display: none;
+    flex-direction: column;
+}
+header nav ol li a{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width:600px) {
+ 
+    body{
+        flex-direction: column-reverse;
+    }
+
+
+    span h1{
+        display: none;
+    }
+    header nav ul li{
+        display:none;
+     }  
+    header nav ol li:hover{
+        text-decoration: underline solid 2px greenyellow;
+    }
+     .icon{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        left:0;
+        right: 0;
+        align-items: center;
+        width:100%;
+        background-color: green;
+        height:90%;
+        backdrop-filter: blur(15px);
+          border-radius: 10px;
+    }
+    header nav ol li{
+        display:flex;
+        left:0;
+        right:0;
+        width: 100%;
+        align-items: center;
+        height:45%;   
+        justify-content: center;
+        
+       }
+       header nav ol{
+          margin-top: 0px;
+          position: relative;
+          align-items: center;
+          left: 0;
+          right: 0;
+             background-color:green;
+             backdrop-filter: blur(35px);
+             border-radius: 6px;
+             flex-direction:row;
+             gap: 8px;
+             font-size:large;
+       }
+       .liu{
+        padding-right: 15px;
+       }
+       .li{
+        padding-left:0px;
+       }
+      header nav ol{
+        margin-top: 10px;
+     }
+     .container{
+        margin-top: 10px;
+        margin-left: 35px;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+     .head h1{
+        padding-top: 6px;
+        margin-top: 78px;
+        padding-bottom: 15px;
+     }
+     .container .ew{
+        width:295px;
+        height:170px;
+        margin-right: 20px;
+        padding-left: 26px;
+        margin-top: 0px;
+        border-radius: 15px;
+     }
+     .inner{
+        font-size: xx-small;
+        word-spacing: 15px;
+        margin-top:15px ;
+        padding-left: 10px;
+            }
+     .inner p{
+         padding-top: 0px;
+     }
+}
+@media(min-width:820px){
+    .container{
+        margin-left: 120px;
+        flex-direction: column;
+   
+    }
+    .head{
+           margin-top: 120px;
+    }
+    .container p{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: row;
+          font-size:19px;
+        padding-top: 10px;
+        
+    }
+    .container img{
+        height: 450px;
+        width: 550px;
+        margin-left: 140px;
+    }
+    .inner{
+        margin-left:125px;
+        height: 660px;
+        width: 590px;
+        margin-top: 25px;
+    }
+    }
+@media(min-width:1400px){
+    .head{
+        margin-top: 00px;
+        margin-left: 140px;
+    }
+    .container img {
+        height: 500px;
+    }
+    .container p{
+        font-size: 25px;
+        word-spacing: 25px;
+        padding-top: 30px;
+    }
+    .inner{
+        height: 500px;
+    }
+}
