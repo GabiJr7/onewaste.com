@@ -92,7 +92,7 @@ header nav ol li a{
     color: white;
     text-decoration: none;
 }
-@media (max-width:600px) {
+@media (max-width:475px) {
  
     body{
         flex-direction: column-reverse;
