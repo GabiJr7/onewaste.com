@@ -205,7 +205,7 @@ header nav ol{
         height:100%;
         color: white;
     } 
-@media(max-width:455px){
+@media(max-width:475px){
     
     nav h1{
 display: none;
@@ -225,7 +225,7 @@ display: none;
         flex-direction: column;
         position: relative;
         align-items: center;
-        width:48vh;
+        width:46vh;
         background-color: green;
         height:20%;
         margin-top: 5px;
@@ -281,7 +281,7 @@ display: none;
         height:80%;
        }
        .ema img{
-        width:40vh;
+        width:44vh;
         height: 30vh;
        }
        .rt{
@@ -292,7 +292,7 @@ display: none;
         height: 80%;    
        }
        .rt img{
-        width: 40vh;
+        width: 42vh;
        }
        .rt p{
          margin-top: 0px;
@@ -307,7 +307,7 @@ display: none;
         flex-direction: column;        
        }
        .tr img{
-        width:40vh;
+        width:44vh;
        }
        .tr p{
            margin-top: 0px;
@@ -320,7 +320,7 @@ display: none;
         height: 80%;
        }
        .ep img {
-        width:40vh;
+        width:44vh;
         height:45vh;
        }
        .ep p{
