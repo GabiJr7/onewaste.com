@@ -225,7 +225,7 @@ display: none;
         flex-direction: column;
         position: relative;
         align-items: center;
-        width:46vh;
+        width:51vh;
         background-color: green;
         height:20%;
         margin-top: 5px;
@@ -333,8 +333,17 @@ display: none;
        }
             .span{
             
-                margin-left: 15px;
+                margin-left: 30px;
             }
+    .spin{
+margin-left: 30px;
+    }
+.spon{
+margin-left: 30px;
+}
+    .spun{
+margin-left: 30px;
+    }
             *{
                 padding: 0;
                 margin: 0;
