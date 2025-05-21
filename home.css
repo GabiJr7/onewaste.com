@@ -124,6 +124,9 @@ display: none;
         background-color: green;
         height:100%;
     }
+    .icon :hover{
+        color:greenyellow;
+    }
     header nav ol li{
         display:flex;
         left:0;
